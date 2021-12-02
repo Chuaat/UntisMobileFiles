@@ -1,0 +1,15 @@
+// 
+// Decompiled by Procyon v0.5.36
+// 
+
+package com.google.android.gms.measurement.internal;
+
+import java.io.Serializable;
+import java.util.List;
+import h2.b;
+import android.os.Parcel;
+import android.os.Parcelable$Creator;
+
+public final class oa implements Parcelable$Creator<na>
+{
+}

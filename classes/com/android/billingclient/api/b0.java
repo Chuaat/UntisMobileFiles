@@ -1,0 +1,121 @@
+// 
+// Decompiled by Procyon v0.5.36
+// 
+
+package com.android.billingclient.api;
+
+final class b0
+{
+    static final h a;
+    static final h b;
+    static final h c;
+    static final h d;
+    static final h e;
+    static final h f;
+    static final h g;
+    static final h h;
+    static final h i;
+    static final h j;
+    static final h k;
+    static final h l;
+    static final h m;
+    static final h n;
+    static final h o;
+    static final h p;
+    static final h q;
+    static final h r;
+    static final h s;
+    static final h t;
+    static final h u;
+    static final h v;
+    
+    static {
+        final h.a c2 = com.android.billingclient.api.h.c();
+        c2.c(3);
+        c2.b("Google Play In-app Billing API version is less than 3");
+        a = c2.a();
+        final h.a c3 = com.android.billingclient.api.h.c();
+        c3.c(3);
+        c3.b("Google Play In-app Billing API version is less than 9");
+        b = c3.a();
+        final h.a c4 = com.android.billingclient.api.h.c();
+        c4.c(3);
+        c4.b("Billing service unavailable on device.");
+        c = c4.a();
+        final h.a c5 = com.android.billingclient.api.h.c();
+        c5.c(5);
+        c5.b("Client is already in the process of connecting to billing service.");
+        d = c5.a();
+        final h.a c6 = com.android.billingclient.api.h.c();
+        c6.c(3);
+        c6.b("Play Store version installed does not support cross selling products.");
+        e = c6.a();
+        final h.a c7 = com.android.billingclient.api.h.c();
+        c7.c(5);
+        c7.b("The list of SKUs can't be empty.");
+        f = c7.a();
+        final h.a c8 = com.android.billingclient.api.h.c();
+        c8.c(5);
+        c8.b("SKU type can't be empty.");
+        g = c8.a();
+        final h.a c9 = com.android.billingclient.api.h.c();
+        c9.c(-2);
+        c9.b("Client does not support extra params.");
+        h = c9.a();
+        final h.a c10 = com.android.billingclient.api.h.c();
+        c10.c(-2);
+        c10.b("Client does not support the feature.");
+        i = c10.a();
+        final h.a c11 = com.android.billingclient.api.h.c();
+        c11.c(-2);
+        c11.b("Client does not support get purchase history.");
+        j = c11.a();
+        final h.a c12 = com.android.billingclient.api.h.c();
+        c12.c(5);
+        c12.b("Invalid purchase token.");
+        k = c12.a();
+        final h.a c13 = com.android.billingclient.api.h.c();
+        c13.c(6);
+        c13.b("An internal error occurred.");
+        l = c13.a();
+        final h.a c14 = com.android.billingclient.api.h.c();
+        c14.c(4);
+        c14.b("Item is unavailable for purchase.");
+        m = c14.a();
+        final h.a c15 = com.android.billingclient.api.h.c();
+        c15.c(5);
+        c15.b("SKU can't be null.");
+        n = c15.a();
+        final h.a c16 = com.android.billingclient.api.h.c();
+        c16.c(5);
+        c16.b("SKU type can't be null.");
+        o = c16.a();
+        final h.a c17 = com.android.billingclient.api.h.c();
+        c17.c(0);
+        p = c17.a();
+        final h.a c18 = com.android.billingclient.api.h.c();
+        c18.c(-1);
+        c18.b("Service connection is disconnected.");
+        q = c18.a();
+        final h.a c19 = com.android.billingclient.api.h.c();
+        c19.c(-3);
+        c19.b("Timeout communicating with service.");
+        r = c19.a();
+        final h.a c20 = com.android.billingclient.api.h.c();
+        c20.c(-2);
+        c20.b("Client doesn't support subscriptions.");
+        s = c20.a();
+        final h.a c21 = com.android.billingclient.api.h.c();
+        c21.c(-2);
+        c21.b("Client doesn't support subscriptions update.");
+        t = c21.a();
+        final h.a c22 = com.android.billingclient.api.h.c();
+        c22.c(-2);
+        c22.b("Client doesn't support multi-item purchases.");
+        u = c22.a();
+        final h.a c23 = com.android.billingclient.api.h.c();
+        c23.c(5);
+        c23.b("Unknown feature");
+        v = c23.a();
+    }
+}
