@@ -1,0 +1,24 @@
+// 
+// Decompiled by Procyon v0.5.36
+// 
+
+package com.untis.mobile.api.enumeration;
+
+public enum UMPeriodRight
+{
+    ACTION_CHANGE_ROOM, 
+    DELETE_CLASSREGEVENT, 
+    READ_CHANNEL, 
+    READ_CLASSREGEVENT, 
+    READ_CLASSROLE, 
+    READ_HOMEWORK, 
+    READ_LESSONTOPIC, 
+    READ_PERIODINFO, 
+    READ_STUD_ABSENCE, 
+    WRITE_CHANNEL, 
+    WRITE_CLASSREGEVENT, 
+    WRITE_HOMEWORK, 
+    WRITE_LESSONTOPIC, 
+    WRITE_PERIODINFO, 
+    WRITE_STUD_ABSENCE;
+}
