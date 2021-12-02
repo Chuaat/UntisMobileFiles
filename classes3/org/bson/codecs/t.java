@@ -1,0 +1,25 @@
+// 
+// Decompiled by Procyon v0.5.36
+// 
+
+package org.bson.codecs;
+
+import org.bson.p0;
+import org.bson.z0;
+import org.bson.h0;
+
+public class t implements n0<h0>
+{
+    public h0 e(final p0 p2, final s0 s0) {
+        return new h0(p2.H3());
+    }
+    
+    @Override
+    public Class<h0> g() {
+        return h0.class;
+    }
+    
+    public void h(final z0 z0, final h0 h0, final x0 x0) {
+        z0.y0(h0.X0());
+    }
+}
